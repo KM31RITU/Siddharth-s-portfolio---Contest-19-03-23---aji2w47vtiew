@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div id="main">
 
-
       <Router>
         <Switch>
           <Route path="/" exact>
@@ -25,8 +24,8 @@ const App = () => {
         </Switch>
       </Router>
     </div>
-  )
-}
+  );
+};
 
 
 export default App;
